@@ -41,6 +41,7 @@ import FilterDates from "../../examples/filterDates";
 import DateRange from "../../examples/dateRange";
 import DateRangeInputWithClearButton from "../../examples/dateRangeInputWithClearButton";
 import DateRangeWithPortal from "../../examples/dateRangeWithPortal";
+import DateRangeWithStaticRanges from "../../examples/dateRangeWithStaticRanges";
 import Disabled from "../../examples/disabled";
 import DisabledKeyboardNavigation from "../../examples/disabledKeyboardNavigation";
 import ReadOnly from "../../examples/readOnly";
@@ -253,6 +254,10 @@ export default class exampleComponents extends React.Component {
     {
       title: "Date Range with Portal",
       component: DateRangeWithPortal,
+    },
+    {
+      title: "Date Range with Static Ranges",
+      component: DateRangeWithStaticRanges,
     },
     {
       title: "Disable datepicker",
